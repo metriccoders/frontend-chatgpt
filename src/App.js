@@ -1,13 +1,11 @@
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import MenuIcon from "@mui/icons-material/Menu";
-import IconButton from "@mui/material/IconButton";
 
 function App() {
   const [queryText, setQueryText] = useState("");
